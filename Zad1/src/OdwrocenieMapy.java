@@ -21,6 +21,7 @@ public class OdwrocenieMapy {
 		for (Integer k : map.keySet()) {
 				map1.put(map.get(k), k);
 		}
+		
 		System.out.println(map1);
 	}
 
