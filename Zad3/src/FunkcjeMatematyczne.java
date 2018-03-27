@@ -19,6 +19,12 @@ public class FunkcjeMatematyczne {
 
 		return result;
 	}
+	
+//	public static Map<Integer,Integer> odwrotna(Map<Integer,Integer> mapa1){
+//		Map<Integer, Integer> result = new HashMap<Integer, Integer>();
+//		
+//		return result;
+//	}
 
 	public static void main(String[] args) {
 		Map<Integer, Integer> f = new HashMap<Integer, Integer>();
