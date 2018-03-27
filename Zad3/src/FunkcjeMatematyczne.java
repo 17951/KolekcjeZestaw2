@@ -9,15 +9,15 @@ public class FunkcjeMatematyczne {
 
 	public static Map<Integer, Integer> zlozenie(Map<Integer, Integer> mapa1, Map<Integer, Integer> mapa2) {
 		Map<Integer, Integer> result = new HashMap<Integer, Integer>();
-		for (Integer k : mapa1.values()) {
-			if (mapa2.containsKey(k)) {
-				result.put(mapa2.get(k), k);
+		for (Integer k : mapa1.keySet()) {
+			Integer w = mapa1.get(k);
+			if (mapa2.containsKey(w)) {
+				result.put(k, mapa2.get(w));
 			}
 
 		}
 
 		return result;
-
 	}
 
 	public static void main(String[] args) {
