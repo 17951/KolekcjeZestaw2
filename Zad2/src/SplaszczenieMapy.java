@@ -25,9 +25,12 @@ public class SplaszczenieMapy {
 			list.add(map.get(k));
 		}
 
+		//lepiej zrobic:
+		list.addAll(map.keySet());
+		list.addAll(map.values());
 		System.out.println(list);
 		
-//		Map<Integer,HashMap<Integer,Integer>> mapa1= new HashMap<Integer,HashMap<Integer,Integer>>();
+
 		
 	}
 }
